@@ -3,7 +3,6 @@
     name: nginx
     state: present
   
-
 - name: start nginx
   systemd:
     name: nginx
